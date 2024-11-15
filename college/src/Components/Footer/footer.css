@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    border-top: 5px solid #C7B7A3;
+}
+.footer p{
+    margin-left: 10px;
+}
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+@media(max-width:850px){
+    .footer{
+        border-top: 2px solid #C7B7A3;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+}
+@media(max-width:600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        display: block;
+        margin: 5px;
+    }
+}
